@@ -16,6 +16,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py index.html /tmp
 
-EXPOSE tcp/3000
+EXPOSE 3000
 
 CMD ["python3", "app.py"]
